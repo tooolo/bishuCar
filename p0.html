@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>精致双曜 假享远方</title>
+		<link rel="stylesheet" href="css/ani.css" />
+		<link rel="stylesheet" href="css/app.css" />
+	</head>
+
+	<body onload="loading()">
+		<div id="p0" class="page">
+			<div class="warp">
+				<div class="content">
+					<img class="bg" src="images/m3/loading_1.png" />
+					<img class="car ani-trun-on" src="images/m3/loading_2.png" />
+					<div class="loading">
+						<p id="load" class="progress">0%</p>
+						<p>Loading...</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+<script>	
+		var load=document.getElementById("load");
+		var num=0;
+		function loading(){
+			var timer=setInterval(autopaly,1000);
+			function autopaly(){
+				num+=10;
+				if(num>100){
+					clearInterval(timer);
+					location="p1.html";
+			}else{
+				load.innerHTML=num+"%";
+			}										
+	}
+			}
+</script>
+</html>

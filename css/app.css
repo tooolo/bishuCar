@@ -1,0 +1,514 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	font-size: 64px;
+}
+
+.page {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.page img {
+	position: absolute;
+	display: block;
+}
+
+
+/**********************************/
+
+#p0 {
+	background-color: black;
+	color: white;
+	text-align: center;
+	display: table;
+}
+
+#p0 .warp {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#p0 .warp .content {
+	position: relative;
+	display: inline-block;
+	font-size: 18px;
+	width: 50%;
+}
+
+#p0 .warp .content .bg {
+	position: static;
+	width: 100%;
+}
+
+#p0 .warp .content .car {
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+#p0 .warp .content .loading {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.ani-trun-on {
+	animation: turn 5s infinite linear;
+}
+
+
+/**********************************/
+
+#p1 .bg {
+	width: 100%;
+	/*height: 100%;*/
+}
+
+#p1 .logo {
+	width: 20%;
+	right: 5%;
+	top: 3%;
+}
+
+#p1 .txt1 {
+	width: 86%;
+	left: 7%;
+	top: 20%;
+}
+
+#p1 .txt2 {
+	width: 56%;
+	left: 22%;
+	top: 38.5%;
+}
+
+#p1 .car1 {
+	width: 56%;
+	left: 2%;
+	top: 50%;
+	opacity: 0;
+}
+
+#p1 .car2 {
+	width: 46%;
+	right: 1%;
+	top: 52%;
+	opacity: 0;
+}
+
+#p1 .price {
+	width: 88%;
+	left: 6%;
+	top: 66%;
+	opacity: 0;
+}
+
+#p1 .hand {
+	width: 7%;
+	right: 13%;
+	top: 22.3%;
+}
+
+.ani-twink {
+	animation: twink 1s infinite linear;
+}
+
+.ani-small {
+	animation: small 1s 1 ease-in;
+}
+
+.ani-big {
+	animation: big 1s 1 ease-in 1s forwards;
+}
+
+.ani-down {
+	animation: down 1s 1 ease-in 2s forwards;
+}
+
+
+/*****************************************/
+
+#m3_p1 .bg {
+	width: 100%;
+	height: 100%;
+}
+
+#m3_p1 .car {
+	left: 32%;
+	top: 53%;
+	width: 14%;
+}
+
+#m3_p1 .music {
+	left: 5%;
+	top: 3%;
+	width: 9%;
+}
+
+#m3_p1 .logo {
+	right: 5%;
+	top: 3%;
+	width: 24%;
+}
+
+#m3_p1 .logob {
+	right: 5%;
+	top: 12%;
+	width: 24%;
+}
+
+#m3_p1 .next {
+	left: 44%;
+	bottom: 2.5%;
+	width: 12%;
+}
+
+#m3_p1 .txt1 {
+	right: 10%;
+	top: 20%;
+	width: 8%;
+}
+
+#m3_p1 .txt2 {
+	right: 23%;
+	top: 20%;
+	width: 25%;
+}
+
+.ani-music-on {
+	animation: turn 5s infinite linear;
+}
+
+.ani-jump {
+	animation: jump 2s infinite ease-in-out;
+}
+
+.ani-car1-move {
+	animation: car1-move 4s 1 linear forwards;
+}
+
+
+/*******************************************/
+
+#m3_p2 .bg {
+	width: 100%;
+	height: 100%;
+}
+
+#m3_p2 .car {
+	right: 28%;
+	top: 58%;
+	width: 8%;
+}
+
+#m3_p2 .music {
+	left: 5%;
+	top: 3%;
+	width: 9%;
+}
+
+#m3_p2 .logo {
+	right: 5%;
+	top: 3%;
+	width: 24%;
+}
+
+#m3_p2 .logob {
+	right: 5%;
+	top: 12%;
+	width: 24%;
+}
+
+#m3_p2 .next {
+	left: 44%;
+	bottom: 2.5%;
+	width: 12%;
+}
+
+#m3_p2 .txt1 {
+	left: 44%;
+	top: 23%;
+	width: 8%;
+}
+
+#m3_p2 .txt2 {
+	left: 23%;
+	top: 24%;
+	width: 19%;
+}
+
+.ani-car2-move {
+	animation: car2-move 2s 1 linear forwards;
+}
+
+#m3_p2 .cloud1 {
+	left: -100%;
+	top: -20%;
+	width: 190%;
+}
+
+#m3_p2 .cloud2 {
+	right: -50%;
+	top: -20%;
+	width: 180%;
+}
+
+#m3_p2 .cloud3 {
+	right: -10%;
+	bottom: 3%;
+	width: 170%;
+}
+
+.ani-cloud1-move {
+	animation: cloud1-move 1.5s linear .7s forwards;
+}
+
+.ani-cloud2-move {
+	animation: cloud2-move 1.5s linear .7s forwards;
+}
+
+.ani-cloud3-move {
+	animation: cloud3-move 1.5s linear .7s forwards;
+}
+
+
+/****************************************/
+
+#m3_p3 .bg {
+	width: 100%;
+	height: 100%;
+}
+
+#m3_p3 .car {
+	right: 28%;
+	top: 58%;
+	width: 8%;
+}
+
+#m3_p3 .music {
+	left: 5%;
+	top: 3%;
+	width: 9%;
+}
+
+#m3_p3 .logo {
+	right: 5%;
+	top: 3%;
+	width: 24%;
+}
+
+#m3_p3 .logob {
+	right: 5%;
+	top: 12%;
+	width: 24%;
+}
+
+#m3_p3 .next {
+	left: 44%;
+	bottom: 2.5%;
+	width: 12%;
+}
+
+#m3_p3 .txt1 {
+	right: 9%;
+	top: 18%;
+	width: 8%;
+}
+
+#m3_p3 .txt2 {
+	right: 20%;
+	top: 19%;
+	width: 19%;
+}
+
+#m3_p3 .star {
+	width: 100%;
+	left: -5%;
+	top: 10%;
+	transform-origin: 50% -20%;
+}
+
+.ani-star {
+	animation: star 5s infinite linear;
+}
+
+
+/****************************************/
+
+#m3_p4 .bg {
+	width: 100%;
+	height: 100%;
+}
+
+#m3_p4 .car {
+	left: 36%;
+	top: 70%;
+	width: 24%;
+}
+
+#m3_p4 .music {
+	left: 5%;
+	top: 3%;
+	width: 9%;
+}
+
+#m3_p4 .logo {
+	right: 5%;
+	top: 3%;
+	width: 24%;
+}
+
+#m3_p4 .logob {
+	right: 5%;
+	top: 12%;
+	width: 24%;
+}
+
+#m3_p4 .next {
+	left: 44%;
+	bottom: 2.5%;
+	width: 12%;
+}
+
+#m3_p4 .txt1 {
+	right: 9%;
+	top: 18%;
+	width: 8%;
+}
+
+#m3_p4 .txt2 {
+	right: 20%;
+	top: 19%;
+	width: 19%;
+}
+
+.ani-car3 {
+	animation: car3 1s 1 forwards;
+}
+
+
+/****************************************/
+
+#m3_p5 .bg {
+	width: 200%;
+	height: 100%;
+	right: 0;
+	top: 0;
+}
+
+#m3_p5 .car {
+	left: 30%;
+	top: 60%;
+	width: 48%;
+}
+
+#m3_p5 .music {
+	left: 5%;
+	top: 3%;
+	width: 9%;
+}
+
+#m3_p5 .logo {
+	right: 5%;
+	top: 3%;
+	width: 24%;
+}
+
+#m3_p5 .logob {
+	right: 5%;
+	top: 12%;
+	width: 24%;
+}
+
+#m3_p5 .next {
+	left: 44%;
+	bottom: 2.5%;
+	width: 12%;
+}
+
+#m3_p5 .txt1 {
+	right: 9%;
+	top: 18%;
+	width: 8%;
+}
+
+#m3_p5 .txt2 {
+	right: 20%;
+	top: 19%;
+	width: 19%;
+}
+
+.ani-car5 {
+	animation: car5 2s 1 linear forwards;
+}
+
+
+/*****************************************/
+
+#t3_p1 .bg {
+	width: 100%;
+	height: 100%;
+}
+
+#t3_p1 .car {
+	left: 18%;
+	top: 56%;
+	width: 36%;
+}
+
+#t3_p1 .music {
+	left: 5%;
+	top: 3%;
+	width: 9%;
+}
+
+#t3_p1 .logo {
+	right: 5%;
+	top: 3%;
+	width: 24%;
+}
+
+#t3_p1 .logob {
+	right: 5%;
+	top: 12%;
+	width: 24%;
+}
+
+#t3_p1 .next {
+	left: 44%;
+	bottom: 2.5%;
+	width: 12%;
+}
+
+#t3_p1 .txt1 {
+	right: .5rem;
+	top: 20%;
+	width: .4rem;
+}
+
+#t3_p1 .txt2 {
+	right: 1.1rem;
+	top: 20%;
+	width: 1rem;
+}
+
+#t3_p1 .slide-text {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.ani-slide-text {
+	animation: slide-text 1s 1 linear;
+}

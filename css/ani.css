@@ -1,0 +1,152 @@
+/*旋转动画*/
+
+@keyframes turn {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+/*闪烁动画*/
+
+@keyframes twink {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0.8;
+	}
+}
+
+@keyframes small {
+	from {
+		transform: scale(1.5);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@keyframes big {
+	from {
+		transform: scale(.8);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@keyframes down {
+	from {
+		transform: translateY(-30%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes jump {
+	from,
+	to {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(50%);
+	}
+}
+
+@keyframes car1-move {
+	to {
+		left: 70%;
+		top: 67%;
+	}
+}
+
+@keyframes car2-move {
+	to {
+		top: 38%;
+	}
+}
+
+@keyframes cloud1-move {
+	from {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+	to {
+		opacity: .8;
+		transform: translate(-25%, -30%);
+	}
+}
+
+@keyframes cloud2-move {
+	from {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+	to {
+		opacity: .8;
+		transform: translate(30%, -22%);
+	}
+}
+
+@keyframes cloud3-move {
+	from {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+	to {
+		opacity: .8;
+		transform: translate(40%, 30%);
+	}
+}
+
+@keyframes star {
+	from {
+		transform: rotate(0deg);
+		opacity: 0;
+	}
+	20%,
+	80% {
+		opacity: 1;
+	}
+	to {
+		transform: rotate(60deg);
+		opacity: 0;
+	}
+}
+
+@keyframes car3 {
+	from {
+		transform: scale(1);
+	}
+	to {
+		top: 25%;
+		transform: scale(.6);
+	}
+}
+
+@keyframes car5 {
+	to {
+		/*right: -100%;*/
+		transform: translateX(50%);
+	}
+}
+
+@keyframes slide-text {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
